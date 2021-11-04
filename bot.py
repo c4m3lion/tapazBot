@@ -106,7 +106,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://guarded-headland-29694.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://tapazbot.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
